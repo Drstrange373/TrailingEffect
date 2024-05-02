@@ -19,7 +19,7 @@ function generateRandomColor() {
     return `rgba(${Math.random() * 255 + 1},${Math.random() * 255 + 1},${Math.random() * 255 + 1},${Math.random()})`
 }
 
-window.addEventListener('reset', ()=>{
+window.addEventListener('resize', ()=>{
     canvas.width = innerWidth
     canvas.height = innerHeight
 })
